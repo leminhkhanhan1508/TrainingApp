@@ -24,12 +24,13 @@ abstract class BaseActivity : AppCompatActivity() {
 
     abstract val model: BaseViewModel
     protected abstract val binding: ViewBinding
+    open val titleId: Int = R.string.app_name
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setFullScreen(R.color.color_00a1e4)
         Common.currentActivity = this
         setContentView(binding.root)
-        setTitle(R.string.app_name)
+        setTitle(titleId)
         initView()
         onListener()
         onObserveData()
