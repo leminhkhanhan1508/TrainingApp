@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginBottom="@dimen/dp20"
+    android:background="@drawable/bg_function_home"
+    android:orientation="vertical"
+    android:padding="@dimen/dp20">
+
+    <com.training.base.ui.views.TextView
+        android:id="@+id/txtFunctionName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Hiển thị Text bằng tools:text"
+        android:textColor="@color/color_005d98"
+        android:textSize="@dimen/text_size_20" />
+
+    <com.training.base.ui.views.TextView
+        android:id="@+id/txtFunctionDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Dữ liệu chỉ hiển thị khi thiết kế UI trong file XML khi build app thì dữ liệu sẽ không hiển thị. "
+        android:textColor="@color/color_000000_90"
+        android:textSize="@dimen/text_size_16" />
+</LinearLayout>
