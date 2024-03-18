@@ -28,4 +28,15 @@
     <string name="description_unknown_application">Các ứng dụng không được cài đặt từ CHPlay và có khả năng đánh cắp thông tin cá nhân của bạn</string>
     <string name="title_training_recyclerview">Recyclerview</string>
     <string name="description_training_recyclerview"><![CDATA[Học về recyclerview từ A->Z]]></string>
+    <string name="title_training_linearlayout">LinearLayout</string>
+    <string name="description_training_linearlayout">Học về cách sử dụng LinearLayout</string>
+    <string name="title_training_ralativelayout">RelativeLayout</string>
+    <string name="description_training_ralativelayout">Học về cách dùng RelavtiveLayout</string>
+    <string name="from_account">FromAccount</string>
+    <string name="title_training_constrainlayout">ConstrainLayout</string>
+    <string name="description_training_constrainlayout">Học về cách dùng ConstrainLayout</string>
+    <string name="title_training_framelayout">FrameLayout</string>
+    <string name="description_training_framelayout">Học về cách dùng FrameLayout</string>
+    <string name="title_training_layout">Layout</string>
+    <string name="description_training_layout">Học về cách dùng các loại layout trong android</string>
 </resources>

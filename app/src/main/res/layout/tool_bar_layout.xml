@@ -30,5 +30,5 @@
         android:layout_height="@dimen/dp24"
         android:layout_gravity="center_vertical"
         android:src="@drawable/baseline_more_vert_24"
-        android:visibility="gone" />
+        android:visibility="invisible" />
 </LinearLayout>

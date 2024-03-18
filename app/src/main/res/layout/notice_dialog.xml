@@ -26,6 +26,7 @@
         android:textStyle="normal"
         android:textSize="18sp"
         android:lineSpacingExtra="10sp"
+        android:textColor="@color/black"
         android:gravity="center_horizontal"
         android:text="@string/noti_popup"
         app:cusfont="Medium"
@@ -39,6 +40,7 @@
         android:layout_marginHorizontal="@dimen/dp20"
         android:textSize="@dimen/sp16"
         android:layout_gravity="center"
+        android:textColor="@color/black"
         android:gravity="center_horizontal"
         tools:text="Nội dung thông báo nề"
         />

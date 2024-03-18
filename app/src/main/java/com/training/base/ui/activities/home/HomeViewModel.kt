@@ -38,9 +38,9 @@ class HomeViewModel(
     fun getHomeServiceFunction(): MutableList<CommonEntity> {
         return mutableListOf(
             CommonEntity().apply {
-                this.setTitle(resourcesProvider.getString(R.string.title_training_recyclerview))
-                this.setDescript(resourcesProvider.getString(R.string.description_training_recyclerview))
-                this.setFunction(ServiceFunction.RECYCLERVIEW)
+                this.setTitle(resourcesProvider.getString(R.string.title_training_layout))
+                this.setDescript(resourcesProvider.getString(R.string.description_training_layout))
+                this.setFunction(ServiceFunction.LAYOUT)
                 this.setTypeLayout(CommonAdapter.MENU_SERVICE)
             },
             CommonEntity().apply {

@@ -5,13 +5,13 @@ class CommonEntity() {
     private var title: String? = null
     private var descript: String? = null
     private var typeLayout: Int = 0
-    private var function: ServiceFunction = ServiceFunction.EDIT_TEXT
+    private var function: Any?=null
 
-    fun getFunction(): ServiceFunction {
+    fun getFunction(): Any? {
         return function
     }
 
-    fun setFunction(function: ServiceFunction): CommonEntity {
+    fun setFunction(function: Any): CommonEntity {
         this.function = function
         return this
     }

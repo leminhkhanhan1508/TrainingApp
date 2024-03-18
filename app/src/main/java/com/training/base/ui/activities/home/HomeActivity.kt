@@ -1,8 +1,10 @@
 package com.training.base.ui.activities.home
+import android.content.Intent
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.training.base.R
 import com.training.base.data.objects.ServiceFunction
 import com.training.base.databinding.ActivityHomeBinding
+import com.training.base.ui.activities.task.demoLayout.DemoLayoutActivity
 import com.training.base.ui.adapters.CommonAdapter
 import com.training.base.ui.base.BaseActivity
 import org.koin.android.viewmodel.ext.android.viewModel
@@ -23,12 +25,19 @@ class HomeActivity : BaseActivity() {
     override fun onListener() {
         super.onListener()
         adapterServiceHome?.setOnClickItemListener {
-            handleActionNext(it.getFunction())
+            handleActionNext(it.getFunction() as ServiceFunction)
         }
     }
 
     private fun handleActionNext(function: ServiceFunction) {
-        //
+        when (function) {
+            ServiceFunction.LAYOUT -> {
+                startActivity(Intent(this, DemoLayoutActivity::class.java))
+            }
+            else -> {
+                confirm.newBuild().setNotice("Chức năng chưa phát triển từ từ học tới")
+            }
+        }
     }
 
 
